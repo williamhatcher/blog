@@ -1,17 +1,17 @@
 # Site settings
-title:          Tail
-description:    "Minimal Jekyll blog theme"
-baseurl:        "/tail"
+title:          "William Hatcher's Blog"
+description:    "A sporatic blog"
+baseurl:        "/blog"
 url:
 
 # https://jekyllrb.com/docs/configuration/options/
-timezone: Asia/Kolkata
+timezone: America/Chicago
 
 # Author
 #   This is the default author name displayed on all posts, can be overridden by setting a different `author: Your Name`
 #   in the frontmatter
 author:
-  name:         Your Name
+  name:         William Hatcher
 
 # Build settings
 markdown:       kramdown
@@ -19,7 +19,7 @@ highlighter: rouge
 
 
 # Comments (Reply via email)
-comments: true
+comments: false 
 comment_email: "" #enter an email address where you want comment emails to be sent
 
 kramdown:
