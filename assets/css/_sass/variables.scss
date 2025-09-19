@@ -29,9 +29,10 @@ $body-bg-dark: #0F1216;
 
 
 // Fonts
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
 $serif-primary: 'Libre Baskerville', 'Times New Roman', 'Times', serif !default;
 $serif-secondary: 'Palatino', 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
-$sans-serif: 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', sans-serif !default;
+$sans-serif: 'Bitter', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', sans-serif !default;
 $monospaced: 'IBM Plex Mono', 'Menlo', 'Monaco', monospace !default;
 
 //length variables for responsive design
