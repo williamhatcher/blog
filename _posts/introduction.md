@@ -8,18 +8,18 @@ sticky: true
 
 Howdy,
 
-Welcome to a sporatic blog about tech, life, education, and whatever else I want to write about.
+Welcome to a sporadic blog about tech, life, education, and whatever else I want to write about.
 <!--more-->
 
 # Purpose & Background
 
 People have suggested I start documenting my exploits and technical ~~cludges~~ feats for several years. I don't like the idea of sitting down to write - whether it's technical documentation, journaling thoughts, or even class notes - so I put off detailing the fun and exciting things in writing which leads to details being forgotten and stories being lost. 
 
-There have been a few adventures my friends and I done this year that I actually want people to know about. Let us, dear reader, embark on an adventure and journey of our own: experiencing William's writing and hopeful improvement.
+There have been a few adventures my friends and I have done this year that I actually want people to know about. Let us, dear reader, embark on an adventure and journey of our own: experiencing William's writing and hopeful improvement.
 
 # Expectations
 
-This blog is labeled as "sporatic" for a reason, please don't expect a regular posting schedule. I do, however, want to be diligent in writing about new adventures within a few months of them.
+This blog is labeled as "sporadic" for a reason, please don't expect a regular posting schedule. I do, however, want to be diligent in writing about new adventures within a few months of them.
 
 ## Use of AI
 
