@@ -11,7 +11,7 @@ Welcome to a sporadic blog about tech, life, education, and whatever else I want
 
 # Purpose & Background
 
-People have suggested I start documenting my exploits and technical ~~cludges~~ feats for several years. I don't like the idea of sitting down to write - whether it's technical documentation, journaling thoughts, or even class notes - so I put off detailing the fun and exciting things in writing which leads to details being forgotten and stories being lost. 
+People have suggested I start documenting my exploits and technical ~~kludges~~ feats for several years. I don't like the idea of sitting down to write - whether it's technical documentation, journaling thoughts, or even class notes - so I put off detailing the fun and exciting things in writing which leads to details being forgotten and stories being lost. 
 
 There have been a few adventures my friends and I have done this year that I actually want people to know about. Let us, dear reader, embark on an adventure and journey of our own: experiencing William's writing and hopeful improvement.
 
