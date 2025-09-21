@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Introduction & About the Author"
+title: Introduction & About the Author
 date: 2025-09-19
 excerpt_separator: <!--more-->
 sticky: true
+hidden: true
 ---
 
 Welcome to a sporadic blog about tech, life, education, and whatever else I want to write about.
@@ -17,11 +18,11 @@ There have been a few adventures my friends and I have done this year that I act
 
 # Expectations
 
-This blog is labeled as "sporadic" for a reason, please don't expect a regular posting schedule. I do, however, want to be diligent in writing about new adventures within a few months of them.
+This blog is labeled as sporadic for a reason: please don't expect a regular posting schedule. I do, however, want to be diligent in writing about new adventures within a few months of finishing them.
 
 ## Use of AI
 
-I use AI fairly often to learn, research, and write. I do not want to use AI to write my posts. If AI content is included in my posts I will notate the usage near the end of the post.
+I use AI fairly often to learn, research, and write. I do not want to use AI to write my posts. If AI content is included in my posts I will notate the usage at the end of the post.
 
 # About the Author
 
