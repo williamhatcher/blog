@@ -48,7 +48,7 @@ paginate:       5
 exclude:
   - README.md
   - LICENSE.md
-  - Templates
+  - _posts/Templates/
 
 # Disqus (Set to your disqus id)
 disqus:
