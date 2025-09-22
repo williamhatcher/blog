@@ -2,7 +2,7 @@
 title:          "William Hatcher's Blog"
 description:    "A sporadic blog"
 baseurl:        "/"
-url:            "https://h.dm"
+url:            
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: America/Chicago
