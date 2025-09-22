@@ -1,8 +1,8 @@
 # Site settings
 title:          "William Hatcher's Blog"
 description:    "A sporadic blog"
-baseurl:        "/"
-url:            
+baseurl:        ""
+#url:            
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: America/Chicago
