@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rescuing a historic PDP-11 from being Salvaged
+title: Rescuing a historic PDP-11 computer from being salvaged
 date: 2025-09-21
 excerpt_separator: <!--more-->
 sticky: false
@@ -8,8 +8,8 @@ hidden: false
 tags:
   - PDP-11
   - TAMU
+lastmod: 2025-09-22
 ---
-
 
 <!--more-->
 
@@ -24,7 +24,7 @@ Ok what's so special about a big old computer from the 80s? Well, I happen to en
 
 The PDP-11 series of minicomputers is arguably one of the most pivotal and influential minicomputer series in history. Released in 1970, it would go on to sell over 600,000 units by 1992 and was the computer on which the venerable Unix OS was written. Unix spawned C, C spawned Linux, and the rest is history.
 
-We weren't allowed to take the PDP-11 with us until it was transferred from surplus to our department. Not knowing who the transfer request would go to or if it would be allowed by all parties involved I submitted the request and waited. After a week with no response we started loosing hope. After a month I had written it off as denied. (Calvin was still mildly hopeful.) 
+We weren't allowed to take the PDP-11 with us until it was transferred from surplus to our department. Not knowing who the transfer request would go to or if it would be allowed by all parties involved I submitted the request and waited. After a week with no response we started losing hope. After a month I had written it off as denied. (Calvin was still mildly hopeful.) 
 
 In a recent conversation with our department's IT team I brought up the PDP-11 find and was met with excitement at finding such a machine at surplus! The conversation also yielded the name of the person who approves transfer requests. Excitedly I reached out and was informed that he hadn't seen any such request. Disappointed and confused I reached out to surplus and was told that the request was approved three days after it was submitted, but that equipment not picked up in ten days is usually sent to be salvaged for scrap metal. At this point I am pensive - there's a small chance the machine is still there but a larger chance that it's been crudely salvaged for its "precious" metals and raw materials. 
 
