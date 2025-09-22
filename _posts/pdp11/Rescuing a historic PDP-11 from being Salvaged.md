@@ -28,7 +28,7 @@ We weren't allowed to take the PDP-11 with us until it was transferred from surp
 
 In a recent conversation with our department's IT team I brought up the PDP-11 find and was met with excitement at finding such a machine at surplus! The conversation also yielded the name of the person who approves transfer requests. Excitedly I reached out and was informed that he hadn't seen any such request. Disappointed and confused I reached out to surplus and was told that the request was approved three days after it was submitted, but that equipment not picked up in ten days is usually sent to be salvaged for scrap metal. At this point I am pensive - there's a small chance the machine is still there but a larger chance that it's been crudely salvaged for its "precious" metals and raw materials. 
 
-The next day I took the bus to surplus and ask if the computer is still there. The employees there had no idea what I'm talking about so they just took me to the holding area and asked if I see it. A few minutes later I  was lugging a X pound computer across the street to the bus stop. Two transfers and several stops later the PDP-11 was placed in our lab!
+The next day I took the bus to surplus and ask if the computer is still there. The employees there had no idea what I'm talking about so they just took me to the holding area and asked if I see it. A few minutes later I  was lugging a very heavy computer across the street to the bus stop. Two transfers and several stops later the PDP-11 was placed in our lab!
 
 This specific model, the PDP-11/23 Plus came out in 1981 - our unit appears to be from 1984 and belonged to the Physics department. We have no idea how long it was in service, what it was used for, or where the rest of the parts are.
 
