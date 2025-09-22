@@ -4,13 +4,6 @@ title: "About"
 permalink: /about/
 ---
 
-This theme builds upon an amazing theme called [Tale](https://github.com/chesterhow/tale). Apart from the minor fixes to Tale, this theme is designed to make it easier to maintain a blog.
+William Hatcher is an extroverted nerd who loves people and likes technology. He has a passion for networking, infrastructure, virtualization, and very old computers. His cheery demeanor, positive outlook, and thoughtful care along with his iconic hat leaves a lasting impression on many people.
 
-If you already have a bunch of files in `*.md` format, you can simply copy them to the `_posts` folder after forking this theme and making a few changes to `_config.yml`, your blog is ready to go!
-
-Check out the key features [here]({{ site.baseurl }}/introducing-tail). If you liked this theme, do star it on [GitHub](https://github.com/jitinnair1/tail).
-
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [gradfolio](https://github.com/jitinnair1/gradfolio) - a minimal, quick-setup template for a personal website/portfolio
+With a BS in Computer Information Systems from East Texas A&M University at RELLIS under his belt, he is currently a masters student at Texas A&M University studying large-scale infrastructure and networking with plans to earn a PhD to pursue his dream of teaching at the collegiate level as a professor. He has several years of industry experience including founding and selling a company and Discord bot, Mr. Translate. You can find his publications on [ORCID](https://orcid.org/0009-0005-4441-2634) or [Google Scholar](https://scholar.google.com/citations?user=iWsEgf0AAAAJ).
