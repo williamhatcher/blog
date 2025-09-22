@@ -1,8 +1,8 @@
 # Site settings
 title:          "William Hatcher's Blog"
 description:    "A sporadic blog"
-baseurl:        "/blog"
-url:
+baseurl:        "/"
+url:            "https://h.dm"
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: America/Chicago
@@ -49,6 +49,7 @@ exclude:
   - README.md
   - LICENSE.md
   - _posts/Templates/
+  - local.sh
 
 # Disqus (Set to your disqus id)
 disqus:
