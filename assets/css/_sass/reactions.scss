@@ -1,0 +1,97 @@
+@use 'variables' as *;
+// SCSS styles for the reaction component.
+// This file should be imported into your main stylesheet.
+// It uses your existing variables from variables.scss
+
+#reaction-component-container {
+    font-family: $sans-serif;
+    color: $default-color;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid $grey-2;
+
+    h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        margin-bottom: 0.75rem;
+        color: $default-color;
+    }
+}
+
+.reaction-buttons {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.reaction-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: $grey-3;
+    border: 2px solid transparent;
+    border-radius: 9999px;
+    padding: 0.25rem 0.75rem 0.25rem 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+    &:hover {
+        background-color: $grey-2;
+    }
+
+    > span:first-child {
+        font-size: 1.5rem;
+        line-height: 1;
+    }
+
+    &.already-reacted {
+        opacity: 0.7;
+        cursor: not-allowed;
+    }
+}
+
+.reaction-count {
+    font-family: $monospaced;
+    font-size: 0.875rem;
+    color: $default-color;
+}
+
+#reaction-message {
+    color: $default-color;
+    font-size: 0.875rem;
+    margin-top: 0.75rem;
+    min-height: 1.25rem;
+    transition: opacity 0.3s ease;
+    opacity: 0;
+
+    &.visible {
+        opacity: 1;
+    }
+}
+
+// Dark mode styles that leverage your existing theme structure
+body.dark-mode {
+    #reaction-component-container {
+        color: $default-color-dark;
+        border-top-color: $default-tint-dark;
+
+        h3 {
+            color: $default-color-dark;
+        }
+    }
+
+    .reaction-button {
+        background-color: $grey-2-dark;
+
+        &:hover {
+            background-color: lighten($grey-2-dark, 5%);
+        }
+    }
+
+    .reaction-count,
+    #reaction-message {
+        color: $default-color-dark;
+    }
+}
+
+
