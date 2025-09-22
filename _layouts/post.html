@@ -32,6 +32,23 @@ layout: default
   <div class="post-line"></div>
 
   {{ content }}
+  
+   <script src="https://giscus.app/client.js"
+        data-repo="williamhatcher/blog"
+        data-repo-id="R_kgDOPzJwaQ"
+        data-category="Comments"
+        data-category-id="DIC_kwDOPzJwac4CvwzP"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+	data-theme="{{ "/assets/css/giscus-custom.css" | absolute_url }}"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+   </script>
 
   {% if site.comments or page.comments %}
     {% include comments.html %}
