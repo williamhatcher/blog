@@ -48,6 +48,6 @@ PDP-11 Serial Interface Board
 PDP-11 Chassis
 
 ## Next Steps
-Calvin and I are going to ensure the power supply isn't faulty, replace any bulging capacitors or other failed components, make our own serial cable, and try booting to the on-line debugging RAM. After that we will work on getting an emulated disk / tape drive connected to the machine. If you or anyone you know have a disk / tape drive please [contact me](https://hatcher.work).
+Calvin and I are going to ensure the power supply isn't faulty, replace any bulging capacitors or other failed components, make our own serial cable, and try booting to the on-line debugging ROM. After that we will work on getting an emulated disk / tape drive connected to the machine. If you or anyone you know have a disk / tape drive please [contact me](https://hatcher.work).
 
 As we make progress I'll write up more posts under the PDP-11 tag. 
