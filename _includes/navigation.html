@@ -7,6 +7,13 @@
       <li><a href="{{ site.baseurl }}/">Posts</a></li>
       <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
       <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      <li>
+    <a feed.xml href="{{ 'feed.xml' | relative_url }}"
+       title="Follow RSS feed"
+       target="_blank">
+	    RSS Feed
+    </a>
+</li>
       <li><a href="#" id="search-toggle" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 512 512" width="1rem" height="1rem">
             <g>
