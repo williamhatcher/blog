@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://h.dm/feed.xml" rel="self" type="application/atom+xml" /><link href="https://h.dm/" rel="alternate" type="text/html" /><updated>2026-06-03T12:31:00-05:00</updated><id>https://h.dm/feed.xml</id><title type="html">William Hatcher’s Blog</title><subtitle>A sporadic blog</subtitle><author><name>William Hatcher</name></author><entry><title type="html">It Works!</title><link href="https://h.dm/it-works!" rel="alternate" type="text/html" title="It Works!" /><published>2026-06-03T00:00:00-05:00</published><updated>2026-06-03T00:00:00-05:00</updated><id>https://h.dm/it%20works!</id><content type="html" xml:base="https://h.dm/it-works!"><![CDATA[<p>The PDP-11 boots! Say hello to Trashpanda!
+<!--more--></p>
+
+<p>Last year my friend Calvin and I rescued a PDP-11/23+ from the dumpster at Texas A&amp;M University. Now we have it booting, running code, and playing Tetris!</p>
+
+<p>Not knowing the state of the machine we were hesitant to power it up until we knew the massive capasitors in the power supply wouldn’t blow up. We pulled an all nighter reforming the caps and fired it up. To our surprise it booted just fine.</p>
+
+<p><img src="assets/images/pdp11-power-supply.JPEG" alt="The Power Supply. Look at those massive, scary caps" />
+The Power Supply. Look at those massive, scary caps</p>
+
+<p>With no video output on the PDP-11 we wired up a serial cable and spun up a terminal on my laptop. After a few moments we were greeted with:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TESTING MEMORY
+0128.KW
+START?
+</code></pre></div></div>
+
+<p>Upon pressing <code class="language-plaintext highlighter-rouge">Y</code>, the PDP looks for a storage device and tries to boot from it. But Calvin’s PDP doesn’t have any storage devices. Pressing <code class="language-plaintext highlighter-rouge">N</code> drops you into ODT, octal debugging technique, the debugging monitor built into the machine<sup id="fnref:1"><a href="#fn:1" class="footnote" rel="footnote" role="doc-noteref">1</a></sup> which allows you to manually read contents of memory, modify the memory, execute, or single-step. It is qutie powerful if obtuse.</p>
+
+<p>Ok, now we have a computer that boots so now what? We go to bed. It’s 4 AM by this point and we are excited yet very tired.</p>
+
+<p>Thanks to Jörg Hoppe’s RETROCOMP site we found a working Hello World program listing. Note that everything is in octal.</p>
+
+<p><img src="assets/images/pdp11-odt-hello.JPEG" alt="Hello World on ODT" />
+<a href="https://retrocmp.com/how-tos/interfacing-to-a-pdp-1105/146-interfacing-with-a-pdp-1105-test-programs-and-qhello-worldq">Full Program listing</a>.</p>
+
+<p><img src="assets/images/pdp11-wyse-terminal.JPEG" alt="We also got the PDP-11 wired to a real terminal" />
+We also got the PDP-11 wired to a real terminal.</p>
+
+<p>That’s where things stood for about seven months. We had a working PDP-11/23+ which could run machine code hand-typed into the monitor.</p>
+
+<p>Calvin decided to name his PDP-11 “Trashpanda” because we rescued a cute black-and-white computer form the dumpster.</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1">
+      <p>ODT is actually in the microcode of the KDF-11B CPU, not the ROM! <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name>William Hatcher</name></author><category term="PDP-11" /><summary type="html"><![CDATA[The PDP-11 boots! Say hello to Trashpanda!]]></summary></entry><entry><title type="html">Rescuing a historic PDP-11 computer from being salvaged</title><link href="https://h.dm/Rescuing-a-historic-PDP-11-from-being-Salvaged" rel="alternate" type="text/html" title="Rescuing a historic PDP-11 computer from being salvaged" /><published>2025-09-21T00:00:00-05:00</published><updated>2025-09-21T00:00:00-05:00</updated><id>https://h.dm/Rescuing%20a%20historic%20PDP-11%20from%20being%20Salvaged</id><content type="html" xml:base="https://h.dm/Rescuing-a-historic-PDP-11-from-being-Salvaged"><![CDATA[<!--more-->
+
+<p>Over the summer my friend Calvin and I went to A&amp;M Surplus, the place where old A&amp;M equipment is sent to be reused, auctioned, or salvaged for scraps, to see if there was anything interesting. It was our first time going and we had no idea what to expect. We found a variety of old office equipment, projectors, oscilloscopes, and other random equipment resting on shelves waiting to be reused by other departments. There were also a few very large cardboard boxes containing keyboards, office phones, old door card readers, and … a 1970s era looking minicomputer. Flabbergasted, we carefully dug out the minicomputer to find it in surprisingly good condition!</p>
+
+<p><img src="assets/images/pdp11-surplus.jpeg" alt="Calvin excitedly holding the PDP-11/23 Plus CPU board" />
+Calvin excitedly holding the PDP-11/23 Plus CPU board</p>
+
+<p>Upon further inspection (really just looking at the front panel) we discovered it was a DEC PDP-11/23 Plus minicomputer from the early 1980s!</p>
+
+<p>Ok what’s so special about a big old computer from the 80s? Well, I happen to enjoy computers of this era and Calvin <em>really</em> likes anything to do with mainframes, minicomputers, and computing history. He’s been dreaming about owning and playing with a PDP-11 for quite some time now. But that’s why we care. Why should you care?</p>
+
+<p>The PDP-11 series of minicomputers is arguably one of the most pivotal and influential minicomputer series in history. Released in 1970, it would go on to sell over 600,000 units by 1992 and was the computer on which the venerable Unix OS was written. Unix spawned C, C spawned Linux, and the rest is history.</p>
+
+<p>We weren’t allowed to take the PDP-11 with us until it was transferred from surplus to our department. Not knowing who the transfer request would go to or if it would be allowed by all parties involved I submitted the request and waited. After a week with no response we started losing hope. After a month I had written it off as denied. (Calvin was still mildly hopeful.)</p>
+
+<p>In a recent conversation with our department’s IT team I brought up the PDP-11 find and was met with excitement at finding such a machine at surplus! The conversation also yielded the name of the person who approves transfer requests. Excitedly I reached out and was informed that he hadn’t seen any such request. Disappointed and confused I reached out to surplus and was told that the request was approved three days after it was submitted, but that equipment not picked up in ten days is usually sent to be salvaged for scrap metal. At this point I am pensive - there’s a small chance the machine is still there but a larger chance that it’s been crudely salvaged for its “precious” metals and raw materials.</p>
+
+<p>The next day I took the bus to surplus and ask if the computer is still there. The employees there had no idea what I’m talking about so they just took me to the holding area and asked if I see it. A few minutes later I  was lugging a very heavy computer across the street to the bus stop. Two transfers and several stops later the PDP-11 was placed in our lab!</p>
+
+<p>This specific model, the PDP-11/23 Plus came out in 1981 - our unit appears to be from 1984 and belonged to the Physics department. We have no idea how long it was in service, what it was used for, or where the rest of the parts are.</p>
+
+<p><img src="assets/images/pdp11-front.JPEG" alt="Front of PDP-11/23 Plus" />
+Front of PDP-11/23 Plus</p>
+
+<p><img src="assets/images/pdp11-cpu.JPEG" alt="PDP-11 CPU Board" />
+PDP-11 CPU Board</p>
+
+<p><img src="assets/images/pdp11-ram.JPEG" alt="PDP-11 RAM Board" />
+PDP-11 RAM Board</p>
+
+<p><img src="assets/images/pdp11-serial.JPEG" alt="PDP-11 Serial Interface Board" />
+PDP-11 Serial Interface Board</p>
+
+<p><img src="assets/images/pdp11-chass.JPEG" alt="PDP-11 Chassis" />
+PDP-11 Chassis</p>
+
+<h2 id="next-steps">Next Steps</h2>
+<p>Calvin and I are going to ensure the power supply isn’t faulty, replace any bulging capacitors or other failed components, make our own serial cable, and try booting to the on-line debugging ROM. After that we will work on getting an emulated disk / tape drive connected to the machine. If you or anyone you know have a disk / tape drive please <a href="https://hatcher.work">contact me</a>.</p>
+
+<p>As we make progress I’ll write up more posts under the PDP-11 tag.</p>]]></content><author><name>William Hatcher</name></author><category term="PDP-11" /><category term="TAMU" /><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Introduction &amp;amp; About the Author</title><link href="https://h.dm/introduction" rel="alternate" type="text/html" title="Introduction &amp;amp; About the Author" /><published>2025-09-19T00:00:00-05:00</published><updated>2025-09-19T00:00:00-05:00</updated><id>https://h.dm/introduction</id><content type="html" xml:base="https://h.dm/introduction"><![CDATA[<p>Welcome to a sporadic blog about tech, life, education, and whatever else I want to write about.
+<!--more--></p>
+
+<h1 id="purpose--background">Purpose &amp; Background</h1>
+
+<p>People have suggested I start documenting my exploits and technical <del>kludges</del> feats for several years. I don’t like the idea of sitting down to write - whether it’s technical documentation, journaling thoughts, or even class notes - so I put off detailing the fun and exciting things in writing which leads to details being forgotten and stories being lost.</p>
+
+<p>There have been a few adventures my friends and I have done this year that I actually want people to know about. Let us, dear reader, embark on an adventure and journey of our own: experiencing William’s writing and hopeful improvement.</p>
+
+<h1 id="expectations">Expectations</h1>
+
+<p>This blog is labeled as sporadic for a reason: please don’t expect a regular posting schedule. I do, however, want to be diligent in writing about new adventures within a few months of finishing them.</p>
+
+<h2 id="use-of-ai">Use of AI</h2>
+
+<p>I use AI fairly often to learn, research, and write. I do not want to use AI to write my posts. If AI content is included in my posts I will notate the usage at the end of the post.</p>
+
+<h1 id="about-the-author">About the Author</h1>
+
+<p>William Hatcher is an extroverted nerd who loves people and likes technology. He has a passion for networking, infrastructure, virtualization, and very old computers. His cheery demeanor, positive outlook, and thoughtful care along with his iconic hat leaves a lasting impression on many people.</p>
+
+<p>With a BS in Computer Information Systems from East Texas A&amp;M University at RELLIS under his belt, he is currently a masters student at Texas A&amp;M University studying large-scale infrastructure and networking with plans to earn a PhD to pursue his dream of teaching at the collegiate level as a professor. He has several years of industry experience including founding and selling a company and Discord bot, Mr. Translate. You can find his publications on <a href="https://orcid.org/0009-0005-4441-2634">ORCID</a> or <a href="https://scholar.google.com/citations?user=iWsEgf0AAAAJ">Google Scholar</a>.</p>]]></content><author><name>William Hatcher</name></author><summary type="html"><![CDATA[Welcome to a sporadic blog about tech, life, education, and whatever else I want to write about.]]></summary></entry></feed>

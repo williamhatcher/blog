@@ -1,0 +1,18 @@
+/* giscus-custom.css */
+
+@import 'https://giscus.app/themes/preferred_color_scheme.css';
+
+/* Hide the main comment input box and its header */
+.gsc-comments {
+  display: none !important;
+}
+
+
+/* Optional: Add some margin below the reactions to give it 
+  some breathing room if it looks too cramped after hiding the comments.
+  Adjust the value as needed for your site's design.
+  */
+.gsc-reactions {
+  padding-bottom: 10rem !important;
+}
+*/
