@@ -1,36 +1,39 @@
-# Tail
+# Chirpy Starter
 
-Tail is a minimal Jekyll blog theme heavily based on [Tale](https://github.com/chesterhow/tale) (and hence the name). Apart from the minor fixes to Tale and significant changes under the hood, this theme is designed to make it easier to maintain a blog.
+[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
+[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
-If you already have a bunch of files in `*.md` format, you can simply copy them to the `_posts` folder after forking this theme and making a few changes to `_config.yml`, your blog is ready to go!
+A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
 
-## What's new in Tail
-- Dark Mode
-- Support for posts without the `YYYY-MM-DD` in the post's filename
-- Search (using Pagefind)
-- Popup Footnotes
-- Bi-directional Wiki-style linking support compatible with Obsidian
-- Comments via Email
+## Why This Starter Exists
 
-## Other Features from Tale (with minor updates)
-- Easy installation
-- Compatible with GitHub Pages
-- Responsive design
-- Pagination of posts
-- Sticky posts
-- Tags
-- Excerpt management
+When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+
+To unlock all features, the following files must be present in your Jekyll site:
+
+```shell
+.
+├── _config.yml
+├── _plugins
+├── _tabs
+└── index.html
+```
+
+This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+
+## Usage
+
+Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
 
 ## Contributing
-Found a bug or have a suggestion? Feel free to create an issue or make a pull request!
+
+This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
 
 ## License
-See [LICENSE](https://github.com/jitinnair1/tail/blob/master/LICENSE)
 
-PS: If you liked the theme, do star :star: it! Thanks!
+This work is published under [MIT][mit] License.
 
-### Also, check out:
-
-- [autoCV](https://github.com/jitinnair1/autocv) - a LaTeX template that builds and deploys the CV using GitHub Actions, so you will always have a ready link for your latest CV
-- [gradfolio](https://github.com/jitinnair1/gradfolio) - a minimal, quick-setup template for a personal website/portfolio
-- [snippet-book](https://github.com/jitinnair1/snippet-book) - terminal style, clean Jekyll blog theme with catppuccin colours
+[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
+[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
+[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
+[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
