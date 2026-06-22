@@ -1,7 +1,7 @@
 ---
 title: Making Bootable Cisco ISO Images
 date: 2026-06-19 21:07 -0500
-last_modified_at: 2026-06-19 13:00 -0500
+last_modified_at: 2026-06-20 13:00 -0500
 tags:
   - Cisco
   - ISO
